@@ -8,7 +8,7 @@ import android.webkit.WebView;
 
 public class MainActivity extends AppCompatActivity {
     WebView wv;
-    String [] URLs={"https://www.washingtonpost.com","https://www.nytimes.com","https://www.reddit.com"};
+    String [] URLs={"https://www.washingtonpost.com","https://www.nytimes.com"};
     int url_number = 0; //start with frst string
     private void load_next_page() {
         wv.loadUrl(URLs[url_number]);
